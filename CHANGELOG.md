@@ -16,6 +16,8 @@
 - Added in the `castor.urdf.xacro` located at `rb_theron_description/urdf/wheels` the configuration required in the joints config.
 - Added in the `rubber_wheel.urdf.xacro` located at `rb_theron_description/urdf/wheels` the configuration required in the joints config.
 
+### Removed
+- Removed RealSense (`sensor_intel_d435`, lines 62 to 68) from the `rb_theron.urdf.xacro` located at `rb_theron_description/robots/`.
 
 ## [0.1.0] 2024-01-29
 
