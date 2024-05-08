@@ -59,13 +59,13 @@
 		<origin xyz="0.3305 0.0 0.1748" rpy="0 0 0"/>
 	</xacro:sensor_orbbec_astra-->
 
-	<xacro:sensor_intel_d435 prefix="$(arg prefix)front_rgbd_camera" parent="$(arg prefix)base_link" prefix_topic="front_rgbd_camera">
+	<!-- <xacro:sensor_intel_d435 prefix="$(arg prefix)front_rgbd_camera" parent="$(arg prefix)base_link" prefix_topic="front_rgbd_camera">
 		<origin xyz="0.3045 0.0 0.1898" rpy="0 0 0"/>
 	</xacro:sensor_intel_d435>
 
 	<xacro:sensor_intel_d435 prefix="$(arg prefix)rear_rgbd_camera" parent="$(arg prefix)base_link" prefix_topic="rear_rgbd_camera">
 		<origin xyz="-0.3045 0.0 0.1158" rpy="0 0 3.1416"/>
-	</xacro:sensor_intel_d435>
+	</xacro:sensor_intel_d435> -->
 
 	<xacro:sensor_imu_hector prefix="$(arg prefix)imu" parent="$(arg prefix)base_link">
 		<origin xyz="-0.1975 0.0 0.1598" rpy="0 0 0"/>
